@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: 0px 210px;
+    background-color:  hsl(229, 57%, 11%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+main{
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    flex-direction: column;
+
+}
+.fylo{
+    background-color: hsl(228, 56%, 26%);
+    margin-right: 650px;
+    width: 18rem;
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 10px;
+    border-top-right-radius: 80px;
+}
+.icon img{
+    background-color: black;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    padding:8px 8px;
+}
+.logo img{
+    margin-left: 30px;
+    width: 60%;
+}
+.icon{
+    margin-left: 30px;
+    margin-top: -30px;
+    width:60%;
+    display: flex;
+    justify-content: space-between;
+}
+.used{
+    font-size: 15px;
+    font-weight: 100;
+    margin-right: 160px;
+    margin-bottom: 5px;
+}
+.storage{
+    width: 450px;
+    height: 100px;
+    background-color:hsl(228, 56%, 26%);
+    border-radius: 10px;
+    margin-left: 200px;
+    color: white;
+    font-weight: light;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:-100px;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    height: 15px;
+    background-color: hsl(229, 57%, 11%);
+    width: 80%;
+}
+.bar-2{
+    display: flex;
+    margin-left: 2px;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+    height: 11px;
+    border-radius: 20px;
+    background: linear-gradient( to right,hsl(6, 100%, 80%), hsl(335, 100%, 65%) );
+}
+.bar-3{
+    width: 3%;
+    margin-right: 1px;
+    border-radius: 50px;
+    height: 9px;
+    background-color:white;
+}
+.length{
+    margin-top: 4px;
+    display: flex;
+    font-size: 11px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    justify-content: space-between;
+}
+.angle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-top: -170px;
+    margin-left: 500px;
+    background-color: white;
+    height: 100px;
+    width: 150px;
+    border-bottom-left-radius:40px ;
+    border-top-left-radius: 40px;
+    border-top-right-radius:40px ;
+
+}
+.ll{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.lll{
+    font-size: 12px;
+
+}
